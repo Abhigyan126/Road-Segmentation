@@ -8,7 +8,7 @@ from tensorflow.keras.preprocessing.image import img_to_array, load_img
 class VideoStitcherOpenCV:
     @staticmethod
     def predict(image):
-        generator_ = tf.keras.models.load_model('/Users/abhigyan/Downloads/GAN_Sat_image_grey_300.h5')
+        generator_ = tf.keras.models.load_model('GAN_Sat_image_grey_300.h5')
         combined_image = tf.cast(img_to_array(image), tf.float32)
 
         image = combined_image
@@ -66,7 +66,7 @@ class VideoStitcherOpenCV:
             if status != cv2.Stitcher_OK:
                 print("Stitching isn't successful")
             else:
-                output_file_path = "fold/img.png"  
+                output_file_path = "img.png"  
                 output = self.predict(output)  # Corrected here
                 cv2.imwrite(output_file_path, output)
                 print(f'Stitched panorama saved as {output_file_path}')
