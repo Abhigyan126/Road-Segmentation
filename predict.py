@@ -5,7 +5,7 @@ import tensorflow as tf
 from tensorflow.keras.preprocessing.image import img_to_array, load_img
 
 # Load the saved model
-generator_ = tf.keras.models.load_model('/Users/abhigyan/Downloads/GAN_Sat_image_grey_300.h5')
+generator_ = tf.keras.models.load_model('GAN_Sat_image_grey_300.h5')
 
 def load_and_predict(image_path):
     combined_image = tf.cast(img_to_array(load_img(image_path)), tf.float32)
@@ -32,5 +32,5 @@ def load_and_predict(image_path):
     plt.show()
 
 # Example usage
-image_path = "/Users/abhigyan/Downloads/download copy.png"
+image_path = "download copy.png"
 load_and_predict(image_path)
