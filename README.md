@@ -19,10 +19,10 @@ The Project focuses on road segmentation using a Conditional Generative Adversar
 | Case 1    | 0.9976 | 0.9975 | 0.9973 |
 | Case 2    | 0.90 | 0.996 | 0.997 |
 
-<div style="text-align:center">  
+<p align="center">
 Screenshots<br>
-<img width="561" alt="Screenshot 2024-05-09 at 12 23 48 AM" src="https://github.com/Abhigyan126/Road-Segmentation/assets/108809711/21a0862d-e150-4249-b798-cf33206fe442"><br>
-<img width="637" alt="Screenshot 2024-05-09 at 12 24 17 AM" src="https://github.com/Abhigyan126/Road-Segmentation/assets/108809711/b2406c63-a2e0-46df-9418-960ffffe4b24"><br>
+<img width="839" alt="Screenshot 2024-05-09 at 12 23 48 AM" src="https://github.com/Abhigyan126/Road-Segmentation/assets/108809711/21a0862d-e150-4249-b798-cf33206fe442"><br>
+<img width="839" alt="Screenshot 2024-05-09 at 12 24 17 AM" src="https://github.com/Abhigyan126/Road-Segmentation/assets/108809711/b2406c63-a2e0-46df-9418-960ffffe4b24"><br>
 <img width="839" alt="Screenshot 2024-05-09 at 12 24 29 AM" src="https://github.com/Abhigyan126/Road-Segmentation/assets/108809711/9ef69c60-8b50-4092-a089-c7c91f3ee46a"><br>
 
-</div>
+</p>
