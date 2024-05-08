@@ -1,8 +1,10 @@
 # Road-Segmentation
+<div style="text-align:justify">
+
 Road_segmentation for Disaster mitigation using CGAN on Satellite imagery  
 
 The Project focuses on road segmentation using a Conditional Generative Adversarial Network (CGAN) with the pix2pix architecture. We utilized satellite images along with their corresponding masks for training. To handle video data, we employed image stitching techniques to create a comprehensive representation. Upon completing the prediction process, the generated masks are applied to the stitched image, effectively segmenting the roads from the rest of the scene. This approach enables accurate road segmentation in satellite imagery, aiding in various applications such as urban planning, traffic analysis, and infrastructure development.
-
+</div>
 ## Results
 
 ### Table 1: Accuracy
